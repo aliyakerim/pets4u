@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: ffff;
+}
+
+/* start of nav bars */
+
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right:0, auto;
+    margin-left: -4rem;
+    max-width: 100px;
+    padding-top: 6px;
+}
+
+.logo2 {
+    margin-right:auto;
+    margin-left: -1rem;
+    max-width:300px; 
+    padding-top: 4px;
+}
+
+.navigation {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navigation li {
+    display:inline-block;
+    padding: 0px 10px;
+   
+}
+
+.navigation li a {
+    text-decoration: none;
+    
+}
+
+.navigation li a:hover {
+    color:#242525;
+}
+
+.navi-button {
+    display: inline-block;
+    background-color: #f0f8fc;
+    padding: 0.375rem 0.75rem;
+    color: black;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(225, 236, 248);
+    border:none;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: rgba(205, 205, 211, 0.8);
+
+}
+
+
+/* end of the nav bars */
+/* start of main-section */
+
+#main-section {
+    background-image: url(images/cover3.jpg);
+    height:85vh;
+    background-size: cover ;
+    background-position: center;
+    margin-top: 1rem;
+    font-family: "Dongle", sans-serif;
+}
+
+.welcome {
+    font-size: 200px;
+    margin: 4px;
+    padding-left: 3rem;
+    text-align:left;
+
+  
+}
+
+.welcome-passage {
+    font-size: 50px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+   
+    
+}
+
+.readmore {
+    margin: 4px;
+    padding: 4px;
+   
+}
+/* end of the main-section */
+
+/* start of introduction */
+.dog-parent-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+
+    margin:25px 50px 75px 100px;
+
+
+}
+
+.child {
+    display:block;
+    padding: 20px;
+    margin: 2% 0;
+    border: solid black;
+    border-radius: 50px;
+    
+}
+
+
+.dog-photo {
+    width: 350px;
+    border-radius: 50px;
+    cursor:pointer;
+ 
+}
+
+.dog-photo:hover {
+    opacity:0.33;
+    display: block;
+    transition: .5s ease;
+}
+
+/*end of introduction */
+
+/* start of footer */
+
+.line1{
+    color: black;
+    display: block;
+    width: 100%
+}
+.line2{
+    color: black;
+    display: block;
+    width: 100%
+}
+
+.info {
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    padding: 20px 10%;
+   
+}
+.info a {
+    font-family: "zen kurenaido" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
+.addr {
+display:flex;
+   justify-content: flex-end;
+   padding:30px;
+}
+
+.logo3 {
+    margin-right:0, auto;
+    margin-left: 4rem;
+    max-width: 80px;
+}
+.logo4 {
+    margin-right:0, auto;
+    margin-left: 1rem;
+    margin-top: 5rem;;
+    max-width: 80px;
+}
+/* end of the footer */
