@@ -125,7 +125,7 @@ button:hover {
     align-content: space-between;
     justify-content: space-around;
 
-    margin:25px 50px 75px 100px;
+    margin:25px 5px 75px 100px;
 
 
 }
@@ -133,7 +133,7 @@ button:hover {
 .child {
     display:block;
     padding: 20px;
-    margin: 2% 0;
+    margin: 2%;
     border: solid black;
     border-radius: 50px;
     

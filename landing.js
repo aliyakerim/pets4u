@@ -3,3 +3,8 @@
 
 const para = document.querySelector('.welcome-passage');
 para.innerHTML = ' Pets for you is the place where you can find information about adopting pets and licesing pets. Please take a look at our website and find your friend today.  ';
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    alert("welcome");
+});
